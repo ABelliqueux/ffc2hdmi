@@ -4,9 +4,25 @@
 
 You should be able to use this to connect a RPI camera module via a HDMI cable like so : RPI Csi camera connector > ffc2hdmi pcb > HDMI cable > ffc2hdmi pcb > Rpi camera CSI connector  
 
-**This is a WIP and not guaranteed to work !**
+## WARNING
 
-## Changes 
+As of Dec. 12 2024, **this is a WIP and not guaranteed to work !**
+
+Wait for further versions if you want to be sure it works !
+
+## Parts needed 
+
+ * This PCB x 2
+ * 1.6Kohm resistor x 2
+ * 100nf (0.1uf) tantalum capacitor x 1
+ * FFC ([Molex 522711579](https://www.molex.com/en-us/products/part-detail/522711579)) connector x 2
+ * HDMI [Molex 2086581201](https://www.molex.com/en-us/products/part-detail/2086581003) connector x 2
+
+## How do I get the PCB ?
+
+You should be able to [grab the gerber files in this repo](https://github.com/ABelliqueux/ffc2hdmi/raw/refs/heads/main/ffc2hdmi_fab.zip) and use your favorite PCB maker like Jlcpcb or pcbway.
+
+## Changelog
 
 Changes are as follows:
 
@@ -14,6 +30,5 @@ Changes are as follows:
  * Use through hole parts
  * Change HDMI footprint to fit [Molex 2086581201](https://www.molex.com/en-us/products/part-detail/2086581003)
 
-![PCB preview](ffc2hdmi.jpeg)
-
+![PCB preview](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi.jpg)
 
