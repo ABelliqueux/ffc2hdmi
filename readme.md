@@ -13,10 +13,11 @@ Wait for further versions if you want to be sure it works !
 ## Parts needed 
 
  * This PCB x 2
- * 1.6Kohm resistor x 2
- * 100nf (0.1uf) tantalum capacitor x 1
+ * 1.6Kohm resistor x 4
+ * 100nf (0.1uf) tantalum capacitor x 2
  * FFC ([Molex 522711579](https://www.molex.com/en-us/products/part-detail/522711579)) connector x 2
  * HDMI [Molex 2086581201](https://www.molex.com/en-us/products/part-detail/2086581003) connector x 2
+ * HDMI cable
 
 ## How do I get the PCB ?
 
