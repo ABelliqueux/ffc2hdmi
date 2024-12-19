@@ -33,5 +33,5 @@ Changes are as follows:
  * Mounting holes are now 2.5mm instead of 2mm.
 
 ![PCB preview](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi.jpg)  
-![PCB preview](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi_sch.jpg)
+![PCB preview](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi_sch.png)
 
