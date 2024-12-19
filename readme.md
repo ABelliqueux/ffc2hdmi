@@ -30,6 +30,8 @@ Changes are as follows:
  * Replace part with wrong pitch (0.5mm vs 1mm) [Hirose FH12-15S-0.5SH](https://www.hirose.com/product/p/CL0586-0523-6-55?lang=en) with [Molex 522711579](https://www.molex.com/en-us/products/part-detail/522711579)
  * Use through hole parts
  * Change HDMI footprint to fit [Molex 2086581201](https://www.molex.com/en-us/products/part-detail/2086581003)
+ * Mounting holes are now 2.5mm instead of 2mm.
 
-![PCB preview](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi.jpg)
+![PCB preview](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi.jpg)  
+![PCB preview](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi_sch.jpg)
 
