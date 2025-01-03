@@ -4,20 +4,24 @@
 
 You should be able to use this to connect a RPI camera module via a HDMI cable like so : RPI Csi camera connector > ffc2hdmi pcb > HDMI cable > ffc2hdmi pcb > Rpi camera CSI connector  
 
-## WARNING
+![PCB](https://raw.githubusercontent.com/ABelliqueux/ffc2hdmi/refs/heads/main/ffc2hdmi-pcb.jpg)  
 
-As of Dec. 12 2024, **this is a WIP and not guaranteed to work !**
+## Limitations
 
-Wait for further versions if you want to be sure it works !
+I have tested this PCB successfully with a RPI 4B+ and a raspicam V3.  
+Currently, the **maximum length of the HDMI cable is 1.8M**. I tested with 3M and 10M cables and got timing error messages from libcamera.  
+If you can test with other hardware and find that it works, please submit an issue stating your HW (rpi model, cam model and HDMI cable length.)  
+
+The current length is enough for my usecase, but if you find a way to user longer cables, please open an issue stating your solution. I have spare PCBs and can do some tests (changing resistors/capacitors value ?).
 
 ## Parts needed 
 
  * This PCB x 2
  * 1.6Kohm resistor x 4
- * 100nf (0.1uf) tantalum capacitor x 2
+ * 100nf (0.1uf) ceramic capacitor x 2
  * FFC ([Molex 522711579](https://www.molex.com/en-us/products/part-detail/522711579)) connector x 2
  * HDMI [Molex 2086581201](https://www.molex.com/en-us/products/part-detail/2086581003) connector x 2
- * HDMI cable
+ * A HDMI cable (1.8M max)
 
 ## How do I get the PCB ?
 
